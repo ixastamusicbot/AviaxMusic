@@ -30,7 +30,7 @@ API_KEY = getenv("API_KEY", "NxGBNexGenBotsa02f5a")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ITzastamusic/LAIBA_MUSIC"
+    "https://github.com/ixastamusicbot/AviaxMusic"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN")
@@ -109,3 +109,4 @@ if SUPPORT_CHAT and not re.match("(?:http|https)://", SUPPORT_CHAT):
     raise SystemExit(
         "[ERROR] - SUPPORT_CHAT must start with https://"
     )
+
